@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="win99.com.slidelayout.MainActivity">
+
+    <win99.com.slidelayout.widget.SlideLayout
+        android:id="@+id/slidelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <include layout="@layout/slidmenu_main"/>
+
+        <include layout="@layout/slidmenu_menu"/>
+        </win99.com.slidelayout.widget.SlideLayout>
+</RelativeLayout>
