@@ -80,6 +80,8 @@ public class SlideLayout extends ViewGroup {
 
     }
 
+    
+
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
